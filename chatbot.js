@@ -71,15 +71,15 @@ function processInput() {
             ];
             addMessage('bot', goodbyes[Math.floor(Math.random() * goodbyes.length)]);
         } else if (input.match(/\b(home|main)\b/i)) {
-            addMessage('bot', 'Sure! Taking you to the home page now – just click <a href="#home">Home</a>.');
+            addMessage('bot', 'Sure! Taking you to the home page now – just click <a href="https://shanmukhsrinadh.github.io/Portfolio/#home">Home</a>.');
         } else if (input.match(/\b(about him|about shannu|about)\b/i)) {
-            addMessage('bot', 'You can learn all about Shanmukh in the <a href="#about">About section</a>. Let me know if you have more questions!');
+            addMessage('bot', 'You can learn all about Shanmukh in the <a href="https://shanmukhsrinadh.github.io/Portfolio/#about">About section</a>. Let me know if you have more questions!');
         } else if (input.match(/\b(resume|his resume|his cv|CV)\b/i)) {
-            addMessage('bot', 'You can view Shanmukh\'s resume in the <a href="#resume">Resume section</a>.');
+            addMessage('bot', 'You can view Shanmukh\'s resume in the <a href="https://drive.google.com/file/d/1G1TQ3d8znA-lqlTkOMLv8TPNnVbtpVUB/view">Resume section</a>.');
         } else if (input.match(/\b(skills|what does he know)\b/i)) {
-            addMessage('bot', 'Check out the <a href="#skills">Skills section</a> to see what Shanmukh knows!');
+            addMessage('bot', 'Check out the <a href="https://shanmukhsrinadh.github.io/Portfolio/#about">Skills section</a> to see what Shanmukh knows!');
         } else if (input.match(/\b(projects|works|work|project)\b/i)) {
-            addMessage('bot', 'Check out the <a href="#projects">Projects section</a> to see Shanmukh\'s amazing work.');
+            addMessage('bot', 'Check out the <a href="https://shanmukhsrinadh.github.io/Portfolio/#work">Projects section</a> to see Shanmukh\'s amazing work.');
         } else {
             addMessage('bot', "My AI knowledge is focused on the portfolio. Please phrase your questions or ask me something else related to the portfolio; I'll be happy to guide you through.");
         }
