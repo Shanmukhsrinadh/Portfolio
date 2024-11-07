@@ -55,7 +55,7 @@ if (input.match(/\b(hi|hello|hey)\b/i)) {
 } else if (input.match(/\b(resume|his resume|his cv|CV)\b/i)) {
     addMessage('bot', 'You can view Shanmukh\'s resume in the <a href="https://shanmukhsrinadh.github.io/Portfolio/#service">Resume section</a>.');
 } else if (input.match(/\b(skills|what does he know)\b/i)) {
-    addMessage('bot', 'Check out the <a href="#https://shanmukhsrinadh.github.io/Portfolio/#service">Skills section</a> to see what Shanmukh knows!');
+    addMessage('bot', 'Check out the <a href="https://shanmukhsrinadh.github.io/Portfolio/#about">Skills section</a> to see what Shanmukh knows!');
 } else if (input.match(/\b(projects|works|work|project)\b/i)) {
     addMessage('bot', 'Check out the <a href="https://shanmukhsrinadh.github.io/Portfolio/#work">Projects section</a> to see Shanmukh\'s amazing work.');
 } else {
