@@ -89,7 +89,7 @@ body {
 }
 
 .message.user .bubble {
-    background-color: #ff7f77; /* Pink from your portfolio */
+    background-color: #8160ce; /* Pink from your portfolio */
     color: white;
     border: 1px solid #ff6b6b;
 }
@@ -113,7 +113,7 @@ body {
 
 #chatbot-input button {
     width: 15%;
-    background-color: #4c5c79; /* Color from your portfolio */
+    background-color: #396ac4; /* Color from your portfolio */
     color: white;
     border: none;
     cursor: pointer;
@@ -131,7 +131,7 @@ body {
 }
 
 #chatbot-messages::-webkit-scrollbar-thumb {
-    background-color: #888;
+    background-color: #7968c7;
     border-radius: 3px;
 }
 
